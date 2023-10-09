@@ -27,5 +27,8 @@ For people pulled image from docker hub
 docker run --rm -it minsusun/pintos:qemu
 ```
 
+### Some Issuses
+- On Apple Chips, Some tests ( e.g. alarm-simultaneous ... ) are not exactly executed on the container and it cannot measure the exact ticks. Seems to be limit of emulations.
+
 ### Enjoy
 enjoy pintos
